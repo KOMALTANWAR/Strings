@@ -39,5 +39,19 @@ public static void main(String args[]){
 
    //str_name.toLowerCase() method;
    System.out.println(student.toLowerCase());
+
+   //str1.compareTo(str2) method --comapres the strings lexiographically
+   String str1="apple";
+   String str2="mango";
+   int value=str1.compareTo(str2);
+   if(value<0){
+    System.out.println("string 1 is smaller than string 2");
+   }else if(value>0){
+     System.out.println("string 2 is smaller than string 1");
+   }else{
+    System.out.println("both the string are lexiographically equal");
+   }
+
+
 }
 }
