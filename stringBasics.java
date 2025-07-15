@@ -9,6 +9,7 @@ public static void main(String args[]){
 
     //Method 2:
     String name="RadhaRani";
+    String student="ROHIT";
     System.out.println(name);
 
     //taking string as an input
@@ -32,7 +33,11 @@ public static void main(String args[]){
 
     //str_name.substring(si,ei) method
     System.out.println(name.substring(5,9));//returns thr part of string from starting index to ending index
+  
+   //str_name.toUpperCase() method;
+   System.out.println(name.toUpperCase());
 
-    
+   //str_name.toLowerCase() method;
+   System.out.println(student.toLowerCase());
 }
 }
