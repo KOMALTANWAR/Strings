@@ -31,8 +31,27 @@ public class stringQuestion{
       }
       return (int)Math.sqrt(y*y+x*x);
     }
+
+    
+   public static String stringCompression(String str){
+          StringBuilder sb=new StringBuilder("");
+    for(int i=0;i<str.length();i++){
+      int count=1;
+      while(i<str.length()-1 && str.charAt(i)==str.charAt(i+1)){
+        count++;
+        i++;
+      }
+      sb.append(str.charAt(i));
+      if(count>1){
+        sb.append(count);
+      }
+      count=0;
+    }
+     return sb.toString();
+   }
     public static void main(String args[]){
      System.out.println( isPalindrome("racecar"));
      System.out.println(findShortestPath("WNEENESENNN"));
+     System.out.println(stringCompression("aaaabbbbcccdddeeee"));
     }
 }

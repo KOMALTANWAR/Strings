@@ -40,7 +40,7 @@ public static void main(String args[]){
    //str_name.toLowerCase() method;
    System.out.println(student.toLowerCase());
 
-   //str1.compareTo(str2) method --comapres the strings lexiographically
+   //str1.compareTo(str2) method --compares the strings lexiographically
    String str1="apple";
    String str2="mango";
    int value=str1.compareTo(str2);
